@@ -1,0 +1,263 @@
+[
+  {
+    "address": "0xc078823b26cec3b8859311e7e5d952548645e13a",
+    "domains": [
+      {
+        "domainId": 1,
+        "domainName": "General",
+        "roles": "",
+        "reputation": "14.27%"
+      },
+      {
+        "domainId": 3,
+        "domainName": "🅿 Eco",
+        "roles": "",
+        "reputation": "0%"
+      },
+      {
+        "domainId": 4,
+        "domainName": "🅿 Intuition",
+        "roles": "Administration",
+        "reputation": "28.52%"
+      },
+      {
+        "domainId": 5,
+        "domainName": "🅿 Jokerace",
+        "roles": "",
+        "reputation": "0%"
+      }
+    ]
+  },
+  {
+    "address": "0xd336963b02be97f7ce5b2ad6d793b9ce8f45cb63",
+    "domains": [
+      {
+        "domainId": 1,
+        "domainName": "General",
+        "roles": "Recovery, Root, Arbitration, Architecture, Funding, Administration",
+        "reputation": "14.17%"
+      },
+      {
+        "domainId": 3,
+        "domainName": "🅿 Eco",
+        "roles": "",
+        "reputation": "46.66%"
+      },
+      {
+        "domainId": 4,
+        "domainName": "🅿 Intuition",
+        "roles": "",
+        "reputation": "4.36%"
+      },
+      {
+        "domainId": 5,
+        "domainName": "🅿 Jokerace",
+        "roles": "",
+        "reputation": "0%"
+      }
+    ]
+  },
+  {
+    "address": "0x25d5c9dbc1e12163b973261a08739927e4f72ba8",
+    "domains": [
+      {
+        "domainId": 1,
+        "domainName": "General",
+        "roles": "Recovery, Root, Arbitration, Architecture, Funding, Administration",
+        "reputation": "13.01%"
+      },
+      {
+        "domainId": 3,
+        "domainName": "🅿 Eco",
+        "roles": "",
+        "reputation": "0%"
+      },
+      {
+        "domainId": 4,
+        "domainName": "🅿 Intuition",
+        "roles": "",
+        "reputation": "20.13%"
+      },
+      {
+        "domainId": 5,
+        "domainName": "🅿 Jokerace",
+        "roles": "",
+        "reputation": "0%"
+      }
+    ]
+  },
+  {
+    "address": "0xfbfc578da3d952f5879f14c66ce1519064239efc",
+    "domains": [
+      {
+        "domainId": 1,
+        "domainName": "General",
+        "roles": "",
+        "reputation": "12.87%"
+      },
+      {
+        "domainId": 3,
+        "domainName": "🅿 Eco",
+        "roles": "",
+        "reputation": "0%"
+      },
+      {
+        "domainId": 4,
+        "domainName": "🅿 Intuition",
+        "roles": "",
+        "reputation": "20.13%"
+      },
+      {
+        "domainId": 5,
+        "domainName": "🅿 Jokerace",
+        "roles": "",
+        "reputation": "0%"
+      }
+    ]
+  },
+  {
+    "address": "0x3c99cfcc8f5823390578a2091ef2c0d07a53677f",
+    "domains": [
+      {
+        "domainId": 1,
+        "domainName": "General",
+        "roles": "",
+        "reputation": "12.51%"
+      },
+      {
+        "domainId": 3,
+        "domainName": "🅿 Eco",
+        "roles": "",
+        "reputation": "0%"
+      },
+      {
+        "domainId": 4,
+        "domainName": "🅿 Intuition",
+        "roles": "",
+        "reputation": "0%"
+      },
+      {
+        "domainId": 5,
+        "domainName": "🅿 Jokerace",
+        "roles": "",
+        "reputation": "100.00%"
+      }
+    ]
+  },
+  {
+    "address": "0xddfff342ce2547338b0f689aa3ec86893340fbdf",
+    "domains": [
+      {
+        "domainId": 1,
+        "domainName": "General",
+        "roles": "",
+        "reputation": "12.36%"
+      },
+      {
+        "domainId": 3,
+        "domainName": "🅿 Eco",
+        "roles": "",
+        "reputation": "33.33%"
+      },
+      {
+        "domainId": 4,
+        "domainName": "🅿 Intuition",
+        "roles": "",
+        "reputation": "0%"
+      },
+      {
+        "domainId": 5,
+        "domainName": "🅿 Jokerace",
+        "roles": "",
+        "reputation": "0%"
+      }
+    ]
+  },
+  {
+    "address": "0x3f4afb08e6775e44c7302832df06c59bcd19d2f4",
+    "domains": [
+      {
+        "domainId": 1,
+        "domainName": "General",
+        "roles": "",
+        "reputation": "8.82%"
+      },
+      {
+        "domainId": 3,
+        "domainName": "🅿 Eco",
+        "roles": "",
+        "reputation": "0%"
+      },
+      {
+        "domainId": 4,
+        "domainName": "🅿 Intuition",
+        "roles": "",
+        "reputation": "26.84%"
+      },
+      {
+        "domainId": 5,
+        "domainName": "🅿 Jokerace",
+        "roles": "",
+        "reputation": "0%"
+      }
+    ]
+  },
+  {
+    "address": "0x5a00023829d998602d0a6fe1f55d41946462945c",
+    "domains": [
+      {
+        "domainId": 1,
+        "domainName": "General",
+        "roles": "",
+        "reputation": "6.85%"
+      },
+      {
+        "domainId": 3,
+        "domainName": "🅿 Eco",
+        "roles": "Administration",
+        "reputation": "19.99%"
+      },
+      {
+        "domainId": 4,
+        "domainName": "🅿 Intuition",
+        "roles": "",
+        "reputation": "0.00%"
+      },
+      {
+        "domainId": 5,
+        "domainName": "🅿 Jokerace",
+        "roles": "",
+        "reputation": "0.00%"
+      }
+    ]
+  },
+  {
+    "address": "0x1fda4692515dfd6f3c957d32825a8efc08d6123c",
+    "domains": [
+      {
+        "domainId": 1,
+        "domainName": "General",
+        "roles": "Arbitration, Architecture, Funding, Administration",
+        "reputation": "5.09%"
+      },
+      {
+        "domainId": 3,
+        "domainName": "🅿 Eco",
+        "roles": "",
+        "reputation": "0%"
+      },
+      {
+        "domainId": 4,
+        "domainName": "🅿 Intuition",
+        "roles": "",
+        "reputation": "0%"
+      },
+      {
+        "domainId": 5,
+        "domainName": "🅿 Jokerace",
+        "roles": "",
+        "reputation": "0%"
+      }
+    ]
+  }
+]
