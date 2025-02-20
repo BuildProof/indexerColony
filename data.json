@@ -168,7 +168,7 @@
       {
         "domainId": 5,
         "domainName": "🅿 Jokerace",
-        "roles": "",
+        "roles": "Administration",
         "reputation": "0%"
       }
     ]
@@ -208,7 +208,7 @@
       {
         "domainId": 1,
         "domainName": "General",
-        "roles": "",
+        "roles": "Arbitration, Architecture, Funding, Administration",
         "reputation": "6.85%"
       },
       {

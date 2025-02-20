@@ -2,6 +2,8 @@ import express from "express";
 import cors from "cors";
 import fs from "fs/promises";
 import { fetchUsersWithRoles } from "./fetchData.js";
+import { fetchDomainFunds } from './fetchBalance.js';
+
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -63,6 +65,15 @@ setInterval(refreshData, 5 * 60 * 1000);
 app.get("/api/users", async (req, res) => {
   const usersData = await getData();
   res.json(usersData);
+});
+
+app.get('/api/domains', async (req, res) => {
+  try {
+    const funds = await fetchDomainFunds();
+    res.json(funds);
+  } catch (error) {
+    res.status(500).json({ error: 'Failed to fetch domain funds' });
+  }
 });
 
 app.listen(PORT, () => {
