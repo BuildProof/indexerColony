@@ -3,9 +3,13 @@ import cors from "cors";
 import fs from "fs/promises";
 import { fetchUsersWithRoles } from "./fetchData.js";
 import { fetchDomainFunds } from './fetchBalance.js';
+import dotenv from "dotenv";
+
+dotenv.config();
 
 const app = express();
 const PORT = process.env.PORT || 3000;
+const HOST = process.env.HOST || "127.0.0.1";
 
 app.use(cors());
 app.use(express.json());
@@ -96,6 +100,6 @@ app.get("/api/domains", async (req, res) => {
 });
 
 // Start server
-app.listen(PORT, () => {
-  console.log(`✅ Server running on http://localhost:${PORT}`);
+app.listen(PORT, HOST, () => {
+  console.log(`Server is running on http://${HOST}:${PORT}`);
 });
