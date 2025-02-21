@@ -1,0 +1,58 @@
+[
+  {
+    "domainId": 1,
+    "domainName": "General",
+    "funds": [
+      {
+        "ticker": "ETH",
+        "amount": "28.999"
+      },
+      {
+        "ticker": "USDC",
+        "amount": "62000.0"
+      }
+    ]
+  },
+  {
+    "domainId": 3,
+    "domainName": "🅿 Eco",
+    "funds": [
+      {
+        "ticker": "ETH",
+        "amount": "5.0"
+      },
+      {
+        "ticker": "USDC",
+        "amount": "0.0"
+      }
+    ]
+  },
+  {
+    "domainId": 4,
+    "domainName": "🅿 Intuition",
+    "funds": [
+      {
+        "ticker": "ETH",
+        "amount": "7.001"
+      },
+      {
+        "ticker": "USDC",
+        "amount": "30000.0"
+      }
+    ]
+  },
+  {
+    "domainId": 5,
+    "domainName": "🅿 Jokerace",
+    "funds": [
+      {
+        "ticker": "ETH",
+        "amount": "1.0"
+      },
+      {
+        "ticker": "USDC",
+        "amount": "8000.0"
+      }
+    ]
+  }
+]
