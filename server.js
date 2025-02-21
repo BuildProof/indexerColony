@@ -2,11 +2,14 @@ import express from "express";
 import cors from "cors";
 import fs from "fs/promises";
 import { fetchUsersWithRoles } from "./fetchData.js";
-import { fetchDomainFunds } from './fetchBalance.js';
+import { fetchDomainFunds } from "./fetchBalance.js";
+import dotenv from "dotenv";
 
+dotenv.config();
 
 const app = express();
 const PORT = process.env.PORT || 3000;
+const HOST = process.env.HOST || "127.0.0.1";
 
 app.use(cors());
 app.use(express.json());
@@ -36,7 +39,6 @@ const saveData = async (data) => {
   }
 };
 
-
 // Function to refresh data periodically
 async function refreshData() {
   try {
@@ -56,7 +58,6 @@ async function refreshData() {
   }
 }
 
-
 // Fetch data initially and set up an interval
 refreshData();
 setInterval(refreshData, 5 * 60 * 1000);
@@ -67,15 +68,15 @@ app.get("/api/users", async (req, res) => {
   res.json(usersData);
 });
 
-app.get('/api/domains', async (req, res) => {
+app.get("/api/domains", async (req, res) => {
   try {
     const funds = await fetchDomainFunds();
     res.json(funds);
   } catch (error) {
-    res.status(500).json({ error: 'Failed to fetch domain funds' });
+    res.status(500).json({ error: "Failed to fetch domain funds" });
   }
 });
 
-app.listen(PORT, () => {
-  console.log(`✅ Server running on http://localhost:${PORT}`);
+app.listen(PORT, HOST, () => {
+  console.log(`Server is running on http://${HOST}:${PORT}`);
 });
